@@ -124,8 +124,8 @@ Example output:
 
 **Optional AI analysis (each finding is analyzed in its code context)**
 
-![AI analysis](images/report-ai.png)
-
+|---|---|
+| ![AI analysis](images/report-ai1.png) | ![Explain mode](images/report-ai2.png) |
 **Tests**
 
 ![Tests passing](images/tests-passing.png)
