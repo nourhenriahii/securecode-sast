@@ -1,0 +1,20 @@
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+!test_samples/.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# macOS / editors
+.DS_Store
+.vscode/
+
+# Generated reports (the demo report is kept)
+report*.html
+report*.json
+securecode-report.html
