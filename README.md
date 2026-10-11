@@ -112,6 +112,23 @@ Example output:
         What it means: The SQL query is built by joining strings with user data. An attacker can change the query ...
         How to fix: Use parameterized queries: cursor.execute('SELECT * FROM users WHERE name = ?', (name,)).
 ```
+## Screenshots
+
+| Terminal scan | Plain-language explanations |
+|---|---|
+| ![Terminal scan](docs/images/terminal-scan.png) | ![Explain mode](docs/images/terminal-explain.png) |
+
+**HTML report**
+
+![HTML report](docs/images/report-html.png)
+
+**Optional AI analysis (each finding is analyzed in its code context)**
+
+![AI analysis](docs/images/report-ai.png)
+
+**Tests**
+
+![Tests passing](docs/images/tests-passing.png)
 
 ## AI layer (optional)
 
