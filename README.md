@@ -116,19 +116,19 @@ Example output:
 
 | Terminal scan | Plain-language explanations |
 |---|---|
-| ![Terminal scan](docs/images/terminal-scan.png) | ![Explain mode](docs/images/terminal-explain.png) |
+| ![Terminal scan](images/terminal-explain.png) | ![Explain mode](images/terminal-explain.png) |
 
 **HTML report**
 
-![HTML report](docs/images/report-html.png)
+![HTML report](images/report-html.png)
 
 **Optional AI analysis (each finding is analyzed in its code context)**
 
-![AI analysis](docs/images/report-ai.png)
+![AI analysis](images/report-ai.png)
 
 **Tests**
 
-![Tests passing](docs/images/tests-passing.png)
+![Tests passing](images/tests-passing.png)
 
 ## AI layer (optional)
 
