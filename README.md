@@ -114,22 +114,23 @@ Example output:
 ```
 ## Screenshots
 
-| Terminal scan | Plain-language explanations |
-|---|---|
-| ![Terminal scan](images/terminal-explain.png) | ![Explain mode](images/terminal-explain.png) |
+**Plain-language explanations in the terminal** (`--explain`)
 
-**HTML report**
+![Terminal output with explanations](images/terminal-explain.png)
+
+**HTML report** (`--format html`)
 
 ![HTML report](images/report-html.png)
 
-**Optional AI analysis (each finding is analyzed in its code context)**
+**Optional AI analysis** (`--ai`): each finding is analyzed in its code context. `.env` files are never sent.
 
+| Running the scan | Result in the report |
 |---|---|
-| ![AI analysis](images/report-ai1.png) | ![Explain mode](images/report-ai2.png) |
-**Tests**
+| ![Running with --ai](images/report-ai1.png) | ![AI analysis in the report](images/report-ai2.png) |
+
+**Tests** (`python3 -m unittest discover -s tests`)
 
 ![Tests passing](images/tests-passing.png)
-
 ## AI layer (optional)
 
 The rules find the problems; the AI only explains them and suggests extra things to review.
